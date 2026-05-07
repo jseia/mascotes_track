@@ -1,0 +1,11 @@
+# Replace `id` with the device id from Find Hub once known (Task 6).
+trackers:
+  - id: REPLACE_ME_1
+    name: Mascot 1
+    color: "#e74c3c"
+  - id: REPLACE_ME_2
+    name: Mascot 2
+    color: "#3498db"
+  - id: REPLACE_ME_3
+    name: Mascot 3
+    color: "#2ecc71"

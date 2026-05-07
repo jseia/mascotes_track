@@ -1,0 +1,10 @@
+interval_seconds: 900          # 15 min
+jitter_seconds: 120            # ±2 min
+db_path: data.sqlite
+auth_state_path: auth_state.json
+web_data_path: web/data.json
+log_dir: logs
+fade_window_seconds: 21600     # 6h trail fade
+find_hub_url: https://www.google.com/android/find
+response_url_substring: locations
+scrape_timeout_seconds: 60

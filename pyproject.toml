@@ -1,0 +1,19 @@
+[project]
+name = "mascotes-track"
+version = "0.1.0"
+description = "Track three Bluetooth trackers via Google Find Hub and visualize them on a map."
+requires-python = ">=3.11"
+dependencies = [
+  "playwright>=1.45",
+  "playwright-stealth>=1.0.6",
+  "pyyaml>=6.0",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
