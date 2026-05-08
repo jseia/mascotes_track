@@ -1,0 +1,12 @@
+name: mascotes_track
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - playwright>=1.45
+    - playwright-stealth>=1.0.6
+    - pyyaml>=6.0
+    - pytest>=8.0
